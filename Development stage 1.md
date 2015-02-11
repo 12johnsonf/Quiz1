@@ -1,5 +1,6 @@
 Psuedocode:
-	```
+
+```
 	READ name
 	WRITE "Welcome to the quiz, ", name
 	score = 0
@@ -26,4 +27,4 @@ Psuedocode:
 	f = open leaderboard.txt r+
 	b = f - line 10 [:1]
 	IF f 
-	```
+```
