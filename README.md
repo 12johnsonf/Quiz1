@@ -4,12 +4,13 @@ Spring Term Computing Project:
 A train based Python Quiz.
 The program will:
 
-    • Start by asking for your name. 
-    • Welcome you to the quiz by name. 
-    • Ask five multiple choice question
-    • For each question, if the player has the correct answer, add one to their score.
-    • At the end of the quiz display the player's name and score.
-    • Display Well Done 5 times if a player has a score of more than 3.
+    • Ask for name.
+    • Welcome by name.
+    • Ask 5 multiple choice questions
+        if correct add one to player score.
+    • Print name, player answers and total score at the end.
+    • If score > 3 print 'Well Done' 5 times.
+    • Add to leaderboard and print top 10.
 
 Developement stages:
 
