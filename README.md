@@ -25,13 +25,12 @@ Developement stages:
 
 3. Add code to your program so asks a question and takes in an answer, for example:
   ```
-  Question One:
-  Which of the following is a goat cheese?
-  1) Cheddar 
-  2) Caprino 
-  3) Stilton 
-  4) Brie 
-  Enter your answer:  2
+  1) Which of the following is a goat cheese?
+  Cheddar 
+  Caprino 
+  Stilton 
+  Brie 
+  Enter your answer:  Caprino
   ```
   Test the program works.
   
