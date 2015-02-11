@@ -6,7 +6,7 @@ Psuedocode:
 	score = 0
 	questions = 2D array
 	i = 0
-	WHILE i < 5
+	WHILE i < 10
 		count +=1
 		WRITE questions[i][0]
 		READ answer
@@ -16,7 +16,8 @@ Psuedocode:
 		ENDIF
 	ENDWHILE
 	j = 0
-	WHILE j > 5:
+	WHILE j > 10:
+        	j += 1
 		IF questions [i][1] == questions[i][2]
 			WRITE questions[i][0], questions[i][2], "RIGHT"
 		ELSE
@@ -26,5 +27,15 @@ Psuedocode:
 	WRITE name, " your score is " score
 	f = open leaderboard.txt r+
 	b = f - line 10 [:1]
-	IF f 
+	IF b < score
+		b = name, score
+	ENDIF
+	WRITE f (lines 1-10)
+	IF score > 6
+		k = 0
+		WHILE k > 5
+			k += 1
+			print "Well done"
+		ENDWHILE
+	ENDIF
 ```
