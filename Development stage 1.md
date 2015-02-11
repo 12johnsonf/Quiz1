@@ -3,6 +3,7 @@ Psuedocode:
 ```
 	READ name
 	WRITE "Welcome to the quiz, ", name
+	WRITE "Answer questions with the exact text given"
 	score = 0
 	questions = 2D array
 	i = 0
@@ -39,3 +40,32 @@ Psuedocode:
 		ENDWHILE
 	ENDIF
 ```
+
+questions = [["""1) What system is used to refer to UK trains?
+MOTS
+TPOS
+TOPS
+GURA
+
+Answer: ""","TOPS",],
+["""2) What was the earliest mechanised meathod of hauling trains?
+Horse
+Electricity
+Diesel
+Steam
+
+Answer: ""","Steam",],
+["""3) Who was in charge of Britian's railways in 1960?
+National Rail
+British Rail
+Regional Rail
+English Rail
+
+Answer: ""","British Rail",],
+["""3) What class of trains are nicknamed "dusty bins"?,,],
+[,,],
+[,,],
+[,,],
+[,,],
+[,,],
+[,,]]
