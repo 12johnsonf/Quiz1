@@ -26,3 +26,4 @@ WRITE name, " your score is " score
 f = open leaderboard.txt r+
 b = f - line 10 [:1]
 IF f 
+```
