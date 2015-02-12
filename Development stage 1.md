@@ -42,6 +42,8 @@ Psuedocode:
 		ENDWHILE
 	ENDIF
 ```
+
+Questions array:
 ```
 questions = [["""1) What system is used to refer to UK trains?
 MOTS
@@ -102,7 +104,9 @@ Answer: """9) When did the 1973 stock enter service?
 1973
 1974
 1975
-1976,"1975",],
+1976
+
+Answer: ""","1975",],
 ["""10) What is the fastest conventional (wheel on rail) train?
 French TGV POS
 German ICE 3
