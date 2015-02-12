@@ -27,11 +27,13 @@ Psuedocode:
 	ENDWHILE
 	WRITE name, " your score is " score
 	f = open leaderboard.txt r+
-	b = f - line 10 [:1]
-	IF b < score
-		b = name, score
-	ENDIF
-	WRITE f (lines 1-10)
+	l = 0
+	WHILE l < 11
+		IF score > f - line l[:1]
+			f - line l = score, name
+		ENDIF
+	ENDWHILE
+	WRITE f
 	IF score > 6
 		k = 0
 		WHILE k > 5
