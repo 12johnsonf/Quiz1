@@ -71,7 +71,6 @@ Answer: ""","All of the above",""]]
 
 global score
 score = 0
-
 for i in range(10)
     answer = input(questions[i][0])
     if answer == questions[i][1]
