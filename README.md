@@ -23,7 +23,7 @@ Developement stages:
   ```
   Test your program works then give evidence of your code.
 
-3. [ ] Make questions array and question asking program:
+3. [X] Make questions array and question asking program:
   ```
   1) Which of the following is a goat cheese?
   Cheddar 
@@ -34,7 +34,7 @@ Developement stages:
   ```
   Test the program works.
   
-4. [ ] Improve the program so it adds one to the score if the player gets the answer right. Test the program works.
+4. [X] Improve the program so it adds one to the score if the player gets the answer right. Test the program works.
 
 5. [ ] Add a leaderboard to the quiz. Test your program works then give evidence of your code.
  
