@@ -39,3 +39,5 @@ Developement stages:
 5. [ ] When the quiz is over add code so it prints out the player's score with answers. Test your program works then give evidence of your code.
 
 6. [ ] Add a leaderboard to the quiz. Test your program works then give evidence of your code.
+
+7. [ ] If the player got more than 6 print out well done 5 times.
