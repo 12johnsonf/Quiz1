@@ -20,9 +20,9 @@ Psuedocode:
 	WHILE j > 10:
         	j += 1
 		IF answers[i][0] == answers[i][1]
-			WRITE "Your answer: " + answers[i][1] + "   RIGHT"
+			WRITE "Your answer: " + answers[i][0] + "   RIGHT"
 		ELSE
-			WRITE "Your answer: " + questions[i][1] +"   Correct answer: " + questions[i][2] + "   WRONG"
+			WRITE "Your answer: " + answesr[i][1] +"   Correct answer: " + questions[i][answers[i][0]] + "   WRONG"
 		ENDIF
 	ENDWHILE
 	WRITE name, " your score is " score
