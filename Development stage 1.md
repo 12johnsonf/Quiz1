@@ -45,7 +45,7 @@ Psuedocode:
 
 Questions array:
 ```
-questions = [["""1) What system is used to refer to UK trains?
+questions = [["""1) What system is used to classify to UK trains?
 MOTS
 TPOS
 TOPS
