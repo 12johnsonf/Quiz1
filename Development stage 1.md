@@ -3,7 +3,7 @@ Psuedocode:
 ```
 	READ name
 	WRITE "Welcome to the quiz, ", name
-	WRITE "Answer questions with the exact text given"
+	WRITE "Answer questions with the number given"
 	score = 0
 	questions = 2D array
 	i = 0
@@ -19,14 +19,14 @@ Psuedocode:
 	j = 0
 	WHILE j > 10:
         	j += 1
-		IF questions [i][1] == questions[i][2]
-			WRITE questions[i][1], questions[i][2], "   RIGHT"
+		IF answers[i][0] == answers[i][1]
+			WRITE "Your answer: " + answers[i][1] + "   RIGHT"
 		ELSE
-			WRITE questions[i][1], questions[i][2], "   WRONG"
+			WRITE "Your answer: " + questions[i][1] +"   Correct answer: " + questions[i][2] + "   WRONG"
 		ENDIF
 	ENDWHILE
 	WRITE name, " your score is " score
-	f = open leaderboard.txt r+
+	f = OPEN leaderboard.txt r+
 	l = 0
 	WHILE l < 11
 		IF score > f - line l[:1]
@@ -45,75 +45,75 @@ Psuedocode:
 
 Questions array:
 ```
-questions = [["""1) What system is used to classify to UK trains?
-MOTS
-TPOS
-TOPS
-GURA
+questions = [["""1) What system is used to classify UK trains?
+1 - MOTS
+2 - TPOS
+3 - TOPS
+4 - GURA
 
-Answer: ""","TOPS",""],
+Answer: ""","MOTS","TPOS","TOPS","GURA"],
 ["""2) What was the earliest mechanised meathod of hauling trains?
-Horse
-Electricity
-Diesel
-Steam
+1 - Horse
+2 - Electricity
+3 - Diesel
+4 - Steam
 
-Answer: ""","Steam",""],
+Answer: ""","Horse", "Electricity", "Diesel", "Steam"],
 ["""3) Who was in charge of Britian's railways in 1980?
-National Rail
-British Rail
-Regional Rail
-English Rail
+1 - National Rail
+2 - British Rail
+3 - Regional Rail
+4 - English Rail
 
-Answer: ""","British Rail",""],
+Answer: ""","National Rail", "British Rail", "Reigonal Rail", "English Rail"],
 ["""4) What class of trains are nicknamed "dusty bins"?
-123
-455
-287
-321
+1 - 123
+2 - 455
+3 - 287
+4 - 321
 
-Answer: ""","321",""],
+Answer: ""","123","455","287","321"],
 ["""5) What was the first railway to use steam power?
-Middleton
-Stockton and Darlington
-Great Western
-Liverpool and Manchester
+1 - Middleton
+2 - Stockton and Darlington
+3 - Great Western
+4 - Liverpool and Manchester
 
-Answer: """, "Middleton",""],
+Answer: """, "Middleton","Stockton and Darlington", "Great Western", "Liverpool and Manchester"],
 ["""6) What is the UK's longest station name?
-Llanfairpwllgwyndgll-gogerychayrndrobwll-llantysilio-gogogoch
-Llanfairpwllgwyngyll-gogerychwyrsafrobwll-llantysilio-gogogoch
-Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gogogoch
-Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gomogoch
+1 - Llanfairpwllgwyndgll-gogerychayrndrobwll-llantysilio-gogogoch
+2 - Llanfairpwllgwyngyll-gogerychwyrsafrobwll-llantysilio-gogogoch
+3 - Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gogogoch #CORRECT
+4 - Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gomogoch
 
-Answer (you can copy and paste): ""","Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gogogoch",""],
+Answer (you can copy and paste): ""","Llanfairpwllgwyndgll-gogerychayrndrobwll-llantysilio-gogogoch", "Llanfairpwllgwyngyll-gogerychwyrsafrobwll-llantysilio-gogogoch","Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gogogoch", "Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gomogoch"],
 ["""7) What tube station has the least passenger usage?
-Swiss Cottage
-Roding Valley
-Epping
-Croxley
+1 - Swiss Cottage
+2 - Roding Valley
+3 - Epping
+4 - Croxley
 
-Answer:  ""","Roding Valley",""],
+Answer:  ""","Swiss Cottage", "Roding Valley", "Epping", "Croxley"],
 ["""8) What is the world's fastest steam locomotive?
-Sir Nigel Gresley
-City of Truro
-Swan
-Mallard
+1 - Sir Nigel Gresley
+2 - City of Truro
+3 - Swan
+4 - Mallard
 
-Answer: """, "Mallard", ""],
+Answer: """, "Sir Nigel Gresley", "City of Truro", "Swan", "Mallard",],
 
 ["""9) When did the 1973 tube stock enter service?
-1973
-1974
-1975
-1976
+1 - 1973
+2 - 1974
+3 - 1975
+4 - 1976
 
-Answer: ""","1975",],
+Answer: ""","1973","1974","1975","1976"],
 ["""10) What is the fastest conventional (wheel on rail) train?
-French TGV POS
-German ICE 3
-Japansese E5/6 Shinkansen
-All of the above
+1 - French TGV POS
+2 - German ICE 3
+3 - Japansese E5/6 Shinkansen
+4 - All of the above
 
-Answer: ""","All of the above",]]
+Answer: ""","French TGV POS", "German ICE 3", "Japansese E5/6 Shinkansen", "All of the above",]]
 ```
