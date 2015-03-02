@@ -50,6 +50,13 @@ wellDone.py
 			print "Well done"
 		ENDWHILE
 	ENDIF
+	
+	
+intro()
+questions()
+corrections()
+leaderboard()
+wellDone()
 ```
 
 Questions array:
