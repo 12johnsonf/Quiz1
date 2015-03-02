@@ -1,10 +1,13 @@
 Psuedocode:
 
 ```
+intro.py:
 	READ name
 	WRITE "Welcome to the quiz, ", name
 	WRITE "Answer questions with the number given"
 	score = 0
+
+questions.py:
 	questions = 2D array
 	i = 0
 	WHILE i < 10
@@ -16,6 +19,8 @@ Psuedocode:
 			score += 1
 		ENDIF
 	ENDWHILE
+
+corrections.py:
 	j = 0
 	WHILE j > 10:
         	j += 1
@@ -25,6 +30,8 @@ Psuedocode:
 			WRITE "Your answer: " + questions[j][answers[j][1]] +"   Correct answer: " + questions[j][answers[j][0]] + "   WRONG"
 		ENDIF
 	ENDWHILE
+
+leaderboard.py
 	WRITE name, " your score is " score
 	f = OPEN leaderboard.txt r+
 	l = 0
@@ -34,6 +41,8 @@ Psuedocode:
 		ENDIF
 	ENDWHILE
 	WRITE f
+
+wellDone.py
 	IF score > 6
 		k = 0
 		WHILE k > 5
