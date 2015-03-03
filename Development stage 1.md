@@ -11,7 +11,7 @@ questions.py:
 	questions = 2D array
 	i = 0
 	WHILE i < 10
-		count +=1
+		i +=1
 		WRITE questions[i][0]
 		READ answer
 		answers[i][1] = answer
