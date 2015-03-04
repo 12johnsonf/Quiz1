@@ -25,7 +25,7 @@ corrections.py:
 	WHILE j < 10
 		j += 1
 		IF answers[i][0] == answers[i][1]
-			WRITE "Your answer: " + questions[j][answers[j][0]] + "   RIGHT"
+			WRITE "Your answer: " + questions[j][answers[j][0]] + "   ✓"
 		ELSE
 			WRITE "Your answer: " + questions[j][answers[j][1]] +"   Correct answer: " + questions[j][answers[j][0]] + "   WRONG"
 		ENDIF
