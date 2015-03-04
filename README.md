@@ -16,7 +16,7 @@ Developement stages:
 
 1. [X] List what your quiz needs to be able to do. Plan the quiz program you are going to make. Flowcharts, pseudo code or any other sensible method of showing how your program will work.
 
-2. [ ] Write a program to ask the player their name and then welcome them to the quiz. For example: 
+2. [X] Write a program to ask the player their name and then welcome them to the quiz. For example: 
   ```
   What is your name? Jerry
   Hello, Jerry welcome to the cheeze quiz.
