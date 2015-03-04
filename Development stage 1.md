@@ -22,8 +22,8 @@ questions.py:
 
 corrections.py:
 	j = 0
-	WHILE j < 10:
-        	j += 1
+	WHILE j < 10
+		j += 1
 		IF answers[i][0] == answers[i][1]
 			WRITE "Your answer: " + questions[j][answers[j][0]] + "   RIGHT"
 		ELSE
