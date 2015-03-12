@@ -40,4 +40,4 @@ Developement stages:
 
 6. [ ] Add a leaderboard to the quiz. Test your program works then give evidence of your code.
 
-7. [ ] If the player got more than 6 print out well done 5 times.
+7. [X] If the player got more than 6 print out well done 5 times.
