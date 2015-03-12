@@ -9,7 +9,7 @@ The program will:
     • Ask 5 multiple choice questions
         if correct add one to player score.
     • Print name, player answers and total score at the end.
-    • If score > 3 print 'Well Done' 5 times.
+    • If score > 6 print 'Well Done' 5 times.
     • Add to leaderboard and print top 10.
 
 Developement stages:
@@ -36,7 +36,7 @@ Developement stages:
   
 4. [X] Improve the program so it adds one to the score if the player gets the answer right. Test the program works.
 
-5. [ ] When the quiz is over add code so it prints out the player's score with answers. Test your program works then give evidence of your code.
+5. [X] When the quiz is over add code so it prints out the player's score with answers. Test your program works then give evidence of your code.
 
 6. [ ] Add a leaderboard to the quiz. Test your program works then give evidence of your code.
 
