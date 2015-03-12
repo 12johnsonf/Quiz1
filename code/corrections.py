@@ -1,6 +1,7 @@
-def correct(answers, questions):
-    for j in range(9):
-        if answers[j][0] == answers[j][1]:
-            print ("Your answer: " + questions[j][answers[j][0]] + "   ✓")
-        else:
-            print ("Your answer: " + questions[j][answers[j][1]] +"   Correct answer: " + questions[j][answers[j][0]] + "   ❌")
+def corrections():
+    for i in range(10):
+                j += 1
+            if questions [i][1] == questions[i][2]:
+                print(questions[i][1], questions[i][2] + "   ✓")
+            else:
+                print(questions[i][1], questions[i][2] + "   ❌")

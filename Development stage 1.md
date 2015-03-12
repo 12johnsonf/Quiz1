@@ -1,30 +1,37 @@
 Psuedocode:
 
 ```
+intro.py:
 	READ name
 	WRITE "Welcome to the quiz, ", name
 	WRITE "Answer questions with the number given"
 	score = 0
+
+questions.py:
 	questions = 2D array
 	i = 0
 	WHILE i < 10
-		count +=1
+		i +=1
 		WRITE questions[i][0]
 		READ answer
-		IF answer == questions[i][1]
+		answers[i][1] = answer
+		IF answer == answers[i][0]
 			score += 1
-			questions[i][2] = answer
 		ENDIF
 	ENDWHILE
+
+corrections.py:
 	j = 0
-	WHILE j > 10:
-        	j += 1
+	WHILE j < 10
+		j += 1
 		IF answers[i][0] == answers[i][1]
-			WRITE "Your answer: " + answers[i][0] + "   RIGHT"
+			WRITE "Your answer: " + questions[j][answers[j][0]] + "   ✓"
 		ELSE
-			WRITE "Your answer: " + answer[i][1] +"   Correct answer: " + questions[i][answers[i][0]] + "   WRONG"
+			WRITE "Your answer: " + questions[j][answers[j][1]] +"   Correct answer: " + questions[j][answers[j][0]] + "   ❌"
 		ENDIF
 	ENDWHILE
+
+leaderboard.py
 	WRITE name, " your score is " score
 	f = OPEN leaderboard.txt r+
 	l = 0
@@ -34,6 +41,8 @@ Psuedocode:
 		ENDIF
 	ENDWHILE
 	WRITE f
+
+wellDone.py
 	IF score > 6
 		k = 0
 		WHILE k > 5
@@ -41,6 +50,13 @@ Psuedocode:
 			print "Well done"
 		ENDWHILE
 	ENDIF
+	
+	
+intro()
+questions()
+corrections()
+leaderboard()
+wellDone()
 ```
 
 Questions array:
@@ -83,10 +99,10 @@ Answer: """, "Middleton","Stockton and Darlington", "Great Western", "Liverpool 
 ["""6) What is the UK's longest station name?
 1 - Llanfairpwllgwyndgll-gogerychayrndrobwll-llantysilio-gogogoch
 2 - Llanfairpwllgwyngyll-gogerychwyrsafrobwll-llantysilio-gogogoch
-3 - Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gogogoch #CORRECT
+3 - Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gogogoch
 4 - Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gomogoch
 
-Answer (you can copy and paste): ""","Llanfairpwllgwyndgll-gogerychayrndrobwll-llantysilio-gogogoch", "Llanfairpwllgwyngyll-gogerychwyrsafrobwll-llantysilio-gogogoch","Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gogogoch", "Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gomogoch"],
+Answer: ""","Llanfairpwllgwyndgll-gogerychayrndrobwll-llantysilio-gogogoch", "Llanfairpwllgwyngyll-gogerychwyrsafrobwll-llantysilio-gogogoch","Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gogogoch", "Llanfairpwllgwyngyll-gogerychwyrndrobwll-llantysilio-gomogoch"],
 ["""7) What tube station has the least passenger usage?
 1 - Swiss Cottage
 2 - Roding Valley
@@ -116,4 +132,6 @@ Answer: ""","1973","1974","1975","1976"],
 4 - All of the above
 
 Answer: ""","French TGV POS", "German ICE 3", "Japansese E5/6 Shinkansen", "All of the above",]]
+
+answers = [[3,0],[4,0],[2,0],[4,0],[1,0],[3,0],[2,0],[3,0],[4,0]]
 ```
