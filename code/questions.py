@@ -70,11 +70,11 @@ Answer: ""","1973","1974","1975","1976"],
 
 Answer: ""","French TGV POS", "German ICE 3", "Japansese E5/6 Shinkansen", "All of the above",]]
 
-answers = [[3,0],[4,0],[2,0],[4,0],[1,0],[3,0],[2,0],[4,0],[3,0]]
+answers = [[3,0],[4,0],[2,0],[4,0],[1,0],[3,0],[2,0],[4,0],[3,0],[4,0]]
 
 def ask():
     score = 0
-    for i in range(9):
+    for i in range(10):
         while True:
             answer = int(input(questions[i][0]))
             if answer <= 4 or answer >= 1:

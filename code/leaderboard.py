@@ -16,4 +16,3 @@ def leader(x,n):
     print("\nLeaderboard:\n")
     print(f.read())
     f.close()
-

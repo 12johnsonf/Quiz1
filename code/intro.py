@@ -1,5 +1,5 @@
 def greet():
-  name = input("Name: ")
-  print("Hello",name+", welcome to the train quiz.")
+  name = input("First name: ")
+  print("Hello",name.capitalize()+", welcome to the train quiz.")
   print("Answer questions with the number given.")
-  return name
+  return name.capitalize()
