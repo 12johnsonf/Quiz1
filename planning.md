@@ -54,11 +54,7 @@ wellDone.py
 	ENDIF
 	
 	
-intro()
-questions()
-corrections()
-leaderboard()
-wellDone()
+
 ```
 
 Questions array:
