@@ -18,8 +18,8 @@ Developement stages:
 
 2. [X] Write a program to ask the player their name and then welcome them to the quiz. For example: 
   ```
-  What is your name? Jerry
-  Hello, Jerry welcome to the cheeze quiz.
+  First name: Jerry
+  Hello Jerry, welcome to the train quiz.
   ```
   Test your program works then give evidence of your code.
 
