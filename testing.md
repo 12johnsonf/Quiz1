@@ -24,7 +24,7 @@ Q9 (right) | When prompted to answer Q9, enter '3' | The program will display as
 Q10 (wrong) | When prompted to answer Q10, enter '1' | The program will display as wrong at the end | As expected |
 Q10 (right) | When prompted to answer Q10, enter '4' | The program will display as correct at the end | As expected |
 Corrections | Answer 3 questions correctly | The 3 questions will be shown as right, & the 7 incorrect questions will have the correct answer * be shown as wrong | As expected |
-Well done | Get a score of 7 | 'Well done' will be printed 3 times | As expected |
+Well done | Get a score of 7 | 'Well done' will be printed 5 times | As expected |
 Well done | Get a score of 5 | 'Well done' will not be printed | As expected |
-Well done | Get a score of 5 | 'Well done' will be printed 3 times | As expected |
+Well done | Get a score of 5 | 'Well done' will be printed 5 times | As expected |
 Leaderboard | Enter Joe as name & score 2 | Leaderboard will be printed with 2 & Joe above the last score of 1 but below the last score of greater than 2. The leaderboard file will also show Joe in the right place | As expected |
