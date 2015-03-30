@@ -1,8 +1,4 @@
-import intro
-import questions
-import corrections
-import wellDone
-import leaderboard
+import intro ,questions, corrections, wellDone, leaderboard
 n = intro.greet()
 a,b,c = questions.ask()
 corrections.correct(a,b)
