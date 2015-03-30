@@ -14,7 +14,7 @@ The program will:
 
 Developement stages:
 
-1. [X] List what your quiz needs to be able to do. Plan the quiz program you are going to make. Flowcharts, pseudo code or any other sensible method of showing how your program will work.
+1. [X] List what your quiz needs to be able to do. Plan the quiz program you are going to make. Flowcharts, pseudo code or any other sensible method of showing how your program will work.  
     https://github.com/12johnsonf/Quiz1/blob/master/planning.md
 
 2. [X] Write a program to ask the player their name and then welcome them to the quiz. For example: 
