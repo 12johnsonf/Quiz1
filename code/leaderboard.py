@@ -6,7 +6,7 @@ def leader(x,n):
         v = v.strip()
         if x >= int(v):
             break
-    f.seek(15*i)
+    f.seek(15*(i))
     r = f.read(140-((i+1)*14))
     f.seek(15*(i+1))
     f.write(r)
