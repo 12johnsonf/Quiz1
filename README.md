@@ -48,3 +48,7 @@ Developement stages:
 
 7. [X] If the player got more than 6 print out well done 5 times.       
     ![alt text](https://raw.githubusercontent.com/12johnsonf/Quiz1/master/screenshots/code/stage%207.png "Stage 7")
+
+
+
+https://github.com/12johnsonf/Quiz1/blob/master/testing.md
