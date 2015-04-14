@@ -50,5 +50,6 @@ Developement stages:
     ![alt text](https://raw.githubusercontent.com/12johnsonf/Quiz1/master/screenshots/code/stage%207.png "Stage 7")
 
 
+[Planning](https://github.com/12johnsonf/Quiz1/blob/master/planning.md)
 
 [Testing table](https://github.com/12johnsonf/Quiz1/blob/master/testing.md)
