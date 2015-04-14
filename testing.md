@@ -3,6 +3,7 @@
 Test | Method | Expected Outcome | Actual Outcome | Screenshot
 ------------ | ------------ | ------------ | ------------ | ------------
 Enter name | Enter 'Billy' when prompted for a name | 'Hello Billy, welcome to the train quiz. Answer questions with the number given.' will be printed | As expected | ![alt text](https://raw.githubusercontent.com/12johnsonf/Quiz1/master/screenshots/testing/enterName.png)
+Name capitalisation | Enter 'bob' when prompted for a name | 'Hello Bob, welcome to the train quiz. Answer questions with the number given.' will be printed | As expected |
 Question 1 (wrong) | When prompted to answer Q1, enter '1' | The program will display as wrong at the end | As expected |
 Question 1 (right) | When prompted to answer Q1, enter '3' | The program will display as correct at the end | As expected |
 Q2 (wrong) | When prompted to answer Q2, enter '1' | The program will display as wrong at the end | As expected |
