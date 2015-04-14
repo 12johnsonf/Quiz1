@@ -46,9 +46,9 @@ Developement stages:
 6. [X] Add a leaderboard to the quiz. Test your program works then give evidence of your code.
     ![alt text](https://raw.githubusercontent.com/12johnsonf/Quiz1/master/screenshots/code/stage%206.png "Stage 6")
 
-7. [X] If the player got more than 6 print out well done 5 times.       
+7. [X] If the player got more than 6 pop uo well done.       
     ![alt text](https://raw.githubusercontent.com/12johnsonf/Quiz1/master/screenshots/code/stage%207.png "Stage 7")
 
 
 
-https://github.com/12johnsonf/Quiz1/blob/master/testing.md
+[Testing table](https://github.com/12johnsonf/Quiz1/blob/master/testing.md)
