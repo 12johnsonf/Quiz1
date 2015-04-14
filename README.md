@@ -53,3 +53,5 @@ Developement stages:
 [Planning](https://github.com/12johnsonf/Quiz1/blob/master/planning.md)
 
 [Testing table](https://github.com/12johnsonf/Quiz1/blob/master/testing.md)
+
+[Evaluation](https://github.com/12johnsonf/Quiz1/blob/master/evaluation.md)
