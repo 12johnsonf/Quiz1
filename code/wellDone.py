@@ -1,7 +1,6 @@
 import time
-def congrats(score):
+import ctypes
+def congrats(score,n):
     print("Score: ", score)
     if score > 6:
-        for i in range(5):
-            print("Well done")
-            time.sleep(0.5)
+        ctypes.windll.user32.MessageBoxW(0, "Congratulations "+n, "Well done", 0)
