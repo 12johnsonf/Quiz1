@@ -19,4 +19,4 @@ Corrections | Answer 3 questions correctly | The 3 questions will be shown as ri
 Well done | Get a score of 7 | Well done window will pop up | As expected |
 Well done | Get a score of 5 | Well done window will not pop up | As expected |
 Well done | Get a score of 6 | Well done window will pop up | As expected |
-Leaderboard | Enter Joe as name & score 2 | Leaderboard will be printed with 2 & Joe above the last score of 1 but below the last score of greater than 2. The leaderboard file will also show Joe in the right place | As expected |
+Leaderboard | Enter Joe as name & score 2 | Leaderboard will be printed with 2 & Joe above the last score of 1(or 2) but below the last score of greater than 2. The leaderboard file will also show Joe in the right place | As expected |
